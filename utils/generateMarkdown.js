@@ -20,6 +20,9 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+## bugs
+
+${data.bugs}
 `;
 }
 
