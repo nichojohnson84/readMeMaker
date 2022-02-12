@@ -20,8 +20,21 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
 # ${data.title}
+${data.describe}
 
-## bugs
+## Why did you build this?
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Bugs or Issues
 
 ${data.bugs}
 `;
