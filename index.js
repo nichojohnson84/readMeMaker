@@ -3,14 +3,12 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown=require("./utils/generateMarkdown")
 
-
-
 // TODO: Create an array of questions for user input
 function promptUser() {
   return inquirer.prompt([
     {
       type: "input",
-      message: "What is your GitHub username?",
+      message: "What is your GitHub username? This will be displayed at the bottom so peopel can view your repo and reach out.",
       name: "username",
     },
     {
@@ -93,12 +91,10 @@ function promptUser() {
 }
 
 
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, data)
 }
-
 
 // Function call to initialize app
 promptUser();
