@@ -18,6 +18,11 @@ function promptUser() {
       message: "What is the name of your project?",
       name: "title",
     },
+    {
+      type: "input",
+      message: "Please describe your project.",
+      name: "describe",
+    },
     //I would like to add a table of contents.
     {
       type: "input",
