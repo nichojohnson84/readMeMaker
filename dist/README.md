@@ -1,5 +1,7 @@
 # Read Me Maker
 
+Badge
+
 It does stuff
 
 ## Table of Contents
@@ -49,4 +51,3 @@ Yes from a license place
 ## Questions
 
 -[nichojohnson84](https://github.com/nichojohnson84)
-{data.email}
