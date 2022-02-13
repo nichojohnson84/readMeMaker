@@ -1,69 +1,73 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+//function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+//function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+//function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
 # ${data.title}
+
 ${data.describe}
 
 ## Table of Contents
 - ["Why did you build this?"](#reason)
 - [Installation](#installation)
 - ["How does it work?"](#usage)
-- ["What language or programs did you use?"](#language)
 - [License](#license)
+- ["Would you like to give feedback or recommend bug fixes?"](#feedback)
 
 ## Why did you build this?
 
--${data.reason}
+- ${data.reason}
 
--${data.function}
+- ${data.function}
 
--${data.learned}
+- ${data.learned}
 
-
-##Installation
+## Installation and testing
 
 ${data.installation}
 
-##How does this program work?
+## How does this program work?
 
 ${data.usage}
 
-##What language or programs did you use?
+### What language or programs did you use?
 
 ${data.language}
 
-##License
-
-${data.license}
-
-###Do you already have future plans for improvements?
+### Do you already have future plans for improvements?
 
 ${data.plan}
 
-###What did you learn while building this?
+### What did you learn while building this?
 
 ${data.learned}
 
-##Feedback
+## License
 
-${data.feedback}
+${data.license}
 
-###You can also visit my repo or leave me comments at my page on GitHub.
+## Feedback
 
-[link](https://github.com/nichojohnson84)
+- If you want to leave feedback on improvments
 
+- Let me know about any bugs
+
+- You can visit my page on GitHub below that also contains my contact information.
+
+### You can also visit my repo and see some other projects I am workin on.
+
+## Questions
+ -[${data.username}](https://github.com/${data.username})
 `;
 }
 

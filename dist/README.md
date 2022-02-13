@@ -1,51 +1,52 @@
-# README Made Easy
+# Read Me Maker
 
-I built this project because every project always requires a readme and it felt like there had to be a faster way.
+It does stuff
 
 ## Table of Contents
 
-- ["Why did you build this?"](#reason)
-- [Installation](#installation)
-- ["How does it work?"](#usage)
-- ["What language or programs did you use?"](#language)
-- [License](#license)
+-["Why did you build this?"](#reason) -[Installation](#installation) -["How does it work?"](#usage) -[License](#license) -["Would you like to give feedback or recommend bug fixes?"](#feedback)
 
 ## Why did you build this?
 
--I built this to save time. Now I or anyone that uses it can just fill out a form and have an authentic and professional README markdown file for anay project they do.
+- For things
 
--undefined
+- undefined
 
--Node and how to fly.
+- I learned to love.
 
-##Installation
+## Installation and testing
 
-You can vist my repo via the link provided or visit my portfolio at the bottom of the page to download it. Just use the clone feature on GitHub and ususususus
+You download it and install it and then use it.
 
-##How does this program work?
+## How does this program work?
 
-Why wouldn't want to use this? It is so much easier to just answer some questions on a form rather than bulid a new page every time you do a project.
+Awesomeness multiplied
 
-##What language or programs did you use?
+### What language or programs did you use?
 
-Javascript, node, japanese, lookat these
+Japanese
 
-##License
+### Do you already have future plans for improvements?
 
-Yes but it was taken away for a DUI.
+I have a 5 year plan for success.
 
-###Do you already have future plans for improvements?
+### What did you learn while building this?
 
-I am building a ray gun to take over south salt lake.
+I learned to love.
 
-###What did you learn while building this?
+## License
 
-Node and how to fly.
+Yes from a license place
 
-##Feedback
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-I should make this a constant on the style page and say If you want to provide feedback.
+## Feedback
 
-###You can also visit my repo or leave me comments at my page on GitHub.
+- If you want to leave feedback on improvments that could be made or let mek now about any bugs you can reach me below.
 
-[link](https://github.com/nichojohnson84)
+### You can also visit my repo and see some other projects I am workin on.
+
+## Questions
+
+-[nichojohnson84](https://github.com/nichojohnson84)
+{data.email}

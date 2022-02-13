@@ -43,27 +43,26 @@ function promptUser() {
       },
       //needs header Credtis
       {
-        type: "input",
+        type: "checkbox",
         message: "What languages or programs did you use?",
         name: "language",
+        message: "What did you use for this project? (Check all that apply)",
+        choices: [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "ES6",
+          "jQuery",
+          "Bootstrap",
+          "Node",
+        ],
       },
       {
         type: "input",
         message: "Who contributed to your project if anyone?",
         name: "contributor",
       },
-      {
-        type: "input",
-        message: "Recommendations or Bug fixes?",
-        name: "bugs",
-      },
 
-      // header for feedback
-      {
-        type: "input",
-        message: "Would you like to give feedback?",
-        name: "feedback",
-      },
       //Summary and future plans for development.
       {
         type: "input",
@@ -75,29 +74,35 @@ function promptUser() {
         message: "Are you already thinking for future plans or add ons?",
         name: "plan",
       },
-      /*for most projects a link will be required here.
+      //for most projects a link will be required here.
       {
-        type: 'input',
-        name: 'link',
-        message: 'Enter the GitHub link to your project. (Required)',
-        validate: linkInput => {
+        type: "input",
+        name: "link",
+        message: "Enter the GitHub link to your project. (Required)",
+        validate: (linkInput) => {
           if (linkInput) {
             return true;
           } else {
-            console.log('You need to enter a project GitHub link!');
+            console.log("You need to enter a project GitHub link!");
             return false;
           }
-        }*/
+        },
+      },
       //needs header for license
       {
-        type: "input",
-        message: "Do you have a license added?",
+        type: "checkbox",
+        message:
+          "Who has provided the license for this project? Please choose one and if selecting other, please add it to your README manually afterward.",
         name: "license",
+        choices: ["Apache 2.0", "MIT", "ISC", "GNU", "other"],
       },
     ])
     .then((answers) => {
       const readText = generateMarkdown(answers);
       writeToFile("dist/README.md", readText);
+    })
+    .catch((err) => {
+      console.log(err);
     });
 }
 
