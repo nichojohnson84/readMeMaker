@@ -20,15 +20,12 @@ ${data.describe}
 ## Table of Contents
 - ["Why did you build this?"](#reason)
 - [Installation](#installation)
-- ["How does it work?"](#usage)
-- [License](#license)
-- ["Would you like to give feedback or recommend bug fixes?"](#feedback)
+- ["How do you use the program?"](#usage)
+- [License and how to give feedback](#license)
 
 ## Why did you build this?
 
 - ${data.reason}
-
-- ${data.function}
 
 - ${data.learned}
 
@@ -36,7 +33,7 @@ ${data.describe}
 
 ${data.installation}
 
-## How does this program work?
+## How do you use the program?
 
 ${data.usage}
 

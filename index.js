@@ -26,27 +26,26 @@ function promptUser() {
       //I would like to add a table of contents.
       {
         type: "input",
-        message:
-          "Why did you build this? (Hint: Because I was asked and homewwork are not good answers)",
+        message: "Why did you build this?",
         name: "reason",
       },
-      {
-        type: "input",
-        message: "Why would someone want to use this?",
-        name: "usage",
-      },
+
       //needs header Installation
       {
         type: "input",
-        message: "How do I install and use it?",
+        message: "How do I install the program?",
         name: "installation",
+      },
+      {
+        type: "input",
+        message: "How do I use the program?",
+        name: "usage",
       },
       //needs header Credtis
       {
         type: "input",
         message: "What languages or programs did you use?",
         name: "language",
-        message: "What programs or languages did you use for this project?",
       },
       {
         type: "input",
@@ -82,8 +81,7 @@ function promptUser() {
       //needs header for license
       {
         type: "input",
-        message:
-          "Who has provided the license for this project? Please choose one and if selecting other, please add it to your README manually afterward.(If you need help GitHub pretty much does the work for you and you just choose one that you feel fits",
+        message: "Who has provided the license for this project?",
         name: "license",
       },
     ])
