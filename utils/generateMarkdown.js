@@ -19,9 +19,9 @@ ${data.describe}
 
 ## Table of Contents
 - ["Why did you build this?"](#reason)
-- [Installation](#installation)
+- ["Installation"](#installation)
 - ["How do you use the program?"](#usage)
-- [License and how to give feedback](#license)
+- ["License and how to give feedback"](#license)
 
 ## Why did you build this?
 
