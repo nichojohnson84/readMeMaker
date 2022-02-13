@@ -43,19 +43,10 @@ function promptUser() {
       },
       //needs header Credtis
       {
-        type: "checkbox",
+        type: "input",
         message: "What languages or programs did you use?",
         name: "language",
-        message: "What did you use for this project? (Check all that apply)",
-        choices: [
-          "JavaScript",
-          "HTML",
-          "CSS",
-          "ES6",
-          "jQuery",
-          "Bootstrap",
-          "Node",
-        ],
+        message: "What programs or languages did you use for this project?",
       },
       {
         type: "input",
@@ -90,11 +81,10 @@ function promptUser() {
       },
       //needs header for license
       {
-        type: "checkbox",
+        type: "input",
         message:
-          "Who has provided the license for this project? Please choose one and if selecting other, please add it to your README manually afterward.",
+          "Who has provided the license for this project? Please choose one and if selecting other, please add it to your README manually afterward.(If you need help GitHub pretty much does the work for you and you just choose one that you feel fits",
         name: "license",
-        choices: ["Apache 2.0", "MIT", "ISC", "GNU", "other"],
       },
     ])
     .then((answers) => {
