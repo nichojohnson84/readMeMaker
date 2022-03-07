@@ -1,7 +1,7 @@
 
-# oop-team-generator
+# NoteTakerMaker
 
-This was a project designed to have us use Test Driven Development and Object Oriented Programing or TDD and OOP.  We had to try and use these methods to create a team generator for an office enviornment although it could be slightly altered to apply to a team of any kind.  
+A simple app to make yourself notes for things you need to do.
 
 ## Table of Contents
 - ["Why did you build this?"](#reason)
@@ -11,29 +11,29 @@ This was a project designed to have us use Test Driven Development and Object Or
 
 ## Why did you build this?
 
-- To try and develop a better understanding of TDD.  It is a very complex process that sounds really simple.  Red, Green, Refract didn't seem to do it justice.
+- It's very easy for anyone to forget tasks they need to do.  Especially small ones that may seem like they aren't urgent until you realize you forgot to do them.
 
-- I learned a lot.  I think you learn the most when you make mistakes over and over again.  Especially when you have almost no time to figure them out so you have to do your best with trial and error and online resources.  But I got much further than I imagined I ever would.
+- I learned how to create and deploy an actual application!  I also learned about HTML and API Routes but I ended upnot going with the API Routes since all of the code was already in the server.js file but I saved them for future use.  We basically built our own server.
 
 ## Installation and testing
 
-After cloning the program from my git hub profile you have to ensure that you have the correct module installed which are Inquirer and Jest (for testing) and then simply type in "node app.js" and it will ask you the questions and then fill out the cards for your team.
+Once the repository has been cloned to your Git Hub Reposiory you simply save it to Heroku (you will need an account) and vist https://evening-journey-88259.herokuapp.com/.  I believe that if you log in to Heroku you can skip the installation and only see your own set of notes via the same link https://evening-journey-88259.herokuapp.com/.
 
 ## How do you use the program?
 
-I addidentally explained this already but one additional step I forgot is that once you have filled out the questionaire you will have a new index.html file in your output folder that has your team information on it.
+You have a Title and Text field and you simply type fill out the two fields.  BOTH fields must contain at least some text or it will not save.  Once you have completed your task or no longer need the note you can use the trash can to delete it.  While viewing a previously made note you can start a new note by either clicking the plus sign at the top right of the page or the top note that simply states Title.
 
 ### What language or programs did you use?
 
-TDD, OOP, Javascript, Node, Jest, Inquirer, HTML, CSS
+We used JavaScript, HTML, CSS, NODE, EXPRESS and Git Hub for saving while we had Heroku for Deployment.
 
 ### Do you already have future plans for improvements?
 
-I need to finish the project so that the page and cards have the correct styling.
+I have actually commented out but saved two features of the app for API routing to make the code easier to maintain and cleaner.  This will also make it easier if I want to add any additional elements.
 
 ### What did you learn while building this?
 
-I learned a lot.  I think you learn the most when you make mistakes over and over again.  Especially when you have almost no time to figure them out so you have to do your best with trial and error and online resources.  But I got much further than I imagined I ever would.
+I learned how to create and deploy an actual application!  I also learned about HTML and API Routes but I ended upnot going with the API Routes since all of the code was already in the server.js file but I saved them for future use.  We basically built our own server.
 
 ## License
 
