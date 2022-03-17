@@ -1,7 +1,7 @@
 
-# NoteTakerMaker
+# Company Tracker Hacker
 
-A simple app to make yourself notes for things you need to do.
+This is a program designed for someone to create tables so they can easily see their company structure.  They can add and delte Departments, Roles, and Employees all from the command line.
 
 ## Table of Contents
 - ["Why did you build this?"](#reason)
@@ -11,29 +11,29 @@ A simple app to make yourself notes for things you need to do.
 
 ## Why did you build this?
 
-- It's very easy for anyone to forget tasks they need to do.  Especially small ones that may seem like they aren't urgent until you realize you forgot to do them.
+- This is a great tool to have for any company that wants to keep track of employee's and who they work under and things like their job title and how much they make.
 
-- I learned how to create and deploy an actual application!  I also learned about HTML and API Routes but I ended upnot going with the API Routes since all of the code was already in the server.js file but I saved them for future use.  We basically built our own server.
+- I learned a lot of valuable information about using mysql and mysql2 to build out tables that you could use in a ton of scenarios where you are trying to keep track of a group and their different aspects.
 
 ## Installation and testing
 
-Once the repository has been cloned to your Git Hub Reposiory you simply save it to Heroku (you will need an account) and vist https://evening-journey-88259.herokuapp.com/.  I believe that if you log in to Heroku you can skip the installation and only see your own set of notes via the same link https://evening-journey-88259.herokuapp.com/.
+From my repository you will go to companyTrackerHacker and use the code function to copy the repo.  Then just use git clone (paste copied repo) in your command line and push enter. You will also need to install a few programs by using the following commands. "npm i mysql2", "npm i inquirer", and "npm i console.table"  These programs will allow you to use the MySql program to view and edit your tables for your employee database.
 
 ## How do you use the program?
 
-You have a Title and Text field and you simply type fill out the two fields.  BOTH fields must contain at least some text or it will not save.  Once you have completed your task or no longer need the note you can use the trash can to delete it.  While viewing a previously made note you can start a new note by either clicking the plus sign at the top right of the page or the top note that simply states Title.
+When you have loaded the programs you will open the regular git bash from the file companyTrackerHacker and then type "npm start".You will then just use the prompts to view, add, or delete employees, roles, or departments given a variety of options.
 
 ### What language or programs did you use?
 
-We used JavaScript, HTML, CSS, NODE, EXPRESS and Git Hub for saving while we had Heroku for Deployment.
+mysql (mysql2), inquirer, node.js, jest for any testing, console.table package.  VS CODE and mysql workbench are also great additions to make it easier to view and alter.
 
 ### Do you already have future plans for improvements?
 
-I have actually commented out but saved two features of the app for API routing to make the code easier to maintain and cleaner.  This will also make it easier if I want to add any additional elements.
+I think it would be great to add more to the tables to really be able to know everything you posssibly could about an employee just by looking at the table.  You could add working ours/days. Any special needs or conditions they may have or any other detail that would be valuable for your company files and directory.
 
 ### What did you learn while building this?
 
-I learned how to create and deploy an actual application!  I also learned about HTML and API Routes but I ended upnot going with the API Routes since all of the code was already in the server.js file but I saved them for future use.  We basically built our own server.
+I learned a lot of valuable information about using mysql and mysql2 to build out tables that you could use in a ton of scenarios where you are trying to keep track of a group and their different aspects.
 
 ## License
 
